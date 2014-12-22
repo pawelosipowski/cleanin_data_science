@@ -42,6 +42,7 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 
+
 Variables for each feature are:
 
 mean(): Mean value
@@ -77,6 +78,8 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 
 angle(): Angle between to vectors.
+
+
 
 
 Example 1: Complete set of variables for feature introduced as tBodyAcc:
