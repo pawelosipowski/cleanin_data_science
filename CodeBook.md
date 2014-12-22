@@ -5,7 +5,7 @@
 #####Signals from devices were processed to estimate variables of the feature vector for predicting activity pattern.
 
 #####Data includes signal variables in columns for each specific feature. 3-axial signals for the feature are marked below by "-XYZ"
-Features are introduced as:
+######Features are introduced as:
 
 tBodyAcc-XYZ
 
@@ -43,7 +43,7 @@ fBodyGyroJerkMag
 
 
 
-Variables for each feature are:
+######Variables for each feature are:
 
 mean(): Mean value
 
@@ -79,10 +79,7 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 
 angle(): Angle between to vectors.
 
-
-
-
-Example 1: Complete set of variables for feature introduced as tBodyAcc:
+######Example 1: Complete set of variables for feature introduced as tBodyAcc:
 
  tBodyAcc-mean()-X
 
@@ -165,23 +162,23 @@ Example 1: Complete set of variables for feature introduced as tBodyAcc:
  tBodyAcc-correlation()-Y,Z
 
  
-Raw data is calculated variables from time and frequency domain. In two sets (train and test) with no description. Data was transformed in following manner:
+######Raw data is calculated variables from time and frequency domain. In two sets (train and test) with no description. Data was transformed in following manner:
 
 
-CodeBook:
-For each vector of activity pattern, label of the pattern was assigned by adding factor variable "activity_label" to data (another column):WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+#####CodeBook:
+######For each vector of activity pattern, label of the pattern was assigned by adding factor variable "activity_label" to data (another column):WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
 
-For each vector of activity pattern, label of a subject was assigned by adding factor variable "subject" to the data (another column): 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+######For each vector of activity pattern, label of a subject was assigned by adding factor variable "subject" to the data (another column): 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
 25 26 27 28 29 30
 
 
-Two sets were merged together.
+######Two sets were merged together.
 
 
-Coulumn names for each variable for the feature were assigned like in Example 1
+######Coulumn names for each variable for the feature were assigned like in Example 1
 
 
-All variables for each feature were dropped but mean and standard deviation estimation variables.
+######All variables for each feature were dropped but mean and standard deviation estimation variables.
 
 
-From variables kept new data was created with mean of each variable for each activity and each subject with no changes to column names and labels for activity patterns assigned.
+######From variables kept new data was created with mean of each variable for each activity and each subject with no changes to column names and labels for activity patterns assigned.
