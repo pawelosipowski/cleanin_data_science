@@ -1,6 +1,9 @@
 cleanin_data_science
 ====================
-run_analysis.R script is about following: 
+This repository is for processing data from Human Activity Recognition Using Smartphones Dataset project required for Coursera Getting and Cleaning Data Course.
+
+
+Required run_analysis.R script does what follows: 
 
 1. merging data from train and test data folders, adding two variables (columns): "activity_label" and "subject" to both sets before merge
 
