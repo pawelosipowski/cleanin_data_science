@@ -10,4 +10,4 @@ run_analysis.R script is about following:
 
 4. placing word labels for activities in activity column
 
-5. using loop and dcast function creating new tidy data with the average of each variable for each activity and each subject
+5. using for loop and dcast() function, creating new tidy data with the average of each variable (each one separetly through iteration) for each activity and each subject
