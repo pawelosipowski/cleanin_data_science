@@ -8,6 +8,7 @@ Data includes signal variables in columns for each specific feature. 3-axial sig
 Features are introduced as:
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
 
 tBodyAccJerk-XYZ
@@ -39,6 +40,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 
 fBodyGyroJerkMag
+
 
 Variables for each feature are:
 
