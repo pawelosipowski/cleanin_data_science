@@ -1,10 +1,10 @@
 ####Code Book 
 
-Experiment was on group of 30 people who were to perform 6 activities being measured through accelometer and gyroscope in SAMSUNG smartphones: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+#####Experiment was on group of 30 people who were to perform 6 activities being measured through accelometer and gyroscope in SAMSUNG smartphones: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-Signals from devices were processed to estimate variables of the feature vector for predicting activity pattern.
+#####Signals from devices were processed to estimate variables of the feature vector for predicting activity pattern.
 
-Data includes signal variables in columns for each specific feature. 3-axial signals for the feature are marked below by "-XYZ"
+#####Data includes signal variables in columns for each specific feature. 3-axial signals for the feature are marked below by "-XYZ"
 Features are introduced as:
 
 tBodyAcc-XYZ
